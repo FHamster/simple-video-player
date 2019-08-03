@@ -2,6 +2,10 @@ var express = require('express')
 var router = express.Router()
 let MyQuery = require('./MySqlDao')
 
+router.get('/', function (req, res, next) {
+  res.josn({ state: true, message: 'api可用' })
+})
+
 /* GET home page. */
 router.get('/', function (req, res, next) {
   res.render('index', { title: 'Express' })
@@ -10,6 +14,12 @@ router.get('/', function (req, res, next) {
 router.get('/getTest', function (req, res) {
   res.json({ state: 'GetOK' })
 })
+
+router.get('/getIDTest/:id', function (req, res) {
+  console.log(req.params.id)
+  res.json({ state: req.params.id })
+})
+
 router.post('/postTest', (req, res) => {
   res.json({ state: 'PostOK' })
 })
@@ -19,18 +29,6 @@ router.delete('/deleteTest', (req, res) => {
 })
 
 router.put('/putTest', (req, res) => {
-  res.json({ state: 'PutOK' })
-})
-
-router.get('/getIDTest/:id', function (req, res) {
-  console.log(req.params.id)
-  res.json({ state: 'url动态参数测试通过', value: req.params.id })
-})
-
-router.get('/sqlTest', (req, res) => {
-  MyQuery('select * from test1', (data) => {
-    console.log(data)
-    res.json(data)
-  })
+  res.json({ state: 'PatchOK' })
 })
 module.exports = router
