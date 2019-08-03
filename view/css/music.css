@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.clearFloat::after{
+    content: '';
+    height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearFloat{
+    zoom: 1;
+}
+
+body{
+    background-color: #fffff5;
+}
+
+.bfq {
+    width: 1000px;
+    height: 900px;
+    border: 1px solid gray;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.bfq .gedan{
+    width: 250px;
+    height: 900px;
+    float: left;
+    border: 1px solid red;
+    position: absolute;
+    background-color: rgb(249,249,249);
+}
+
+.bfq .main{
+    width: 750px;
+    height: 300px;
+    float: right;
+    border: 2px solid yellow;
+    display: block;
+    background-color: white;
+    /*margin-left: 250px;*/
+    /*background-color: #00B7FF;*/
+    /*position: absolute;*/
+}
+
+.bfq .main .show{
+    width: 700px;
+    height: 200px;
+    border: 1px solid blue;
+    padding: 25px;
+}
+
+.bfq .main .show .pic{
+    width: 200px;
+    height: 200px;
+    display: block;
+    border: 1px solid blue;
+    position: absolute;
+}
+
+.bfq .main .show .wenzi{
+    width: 400px;
+    height: 90px;
+    display: block;
+    margin-left: 230px;
+    border: 1px solid #00B7FF;
+}
+
+.bfq .main .show .wenzi h1{
+    line-height: 24px;
+    font-size: 20px;
+    padding: 0 0 10px 0;
+}
+
+.bfq .main .show .wenzi img{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid seagreen;
+    float: left;
+}
+
+.bfq .main .show .wenzi .uname{
+    line-height: 40px;
+    max-width: 100px;
+    color: rgb(34,115,194);
+    display: block;
+    margin-left: 20px;
+    float: left;
+
+}
+
+.bfq .main .show  .playbtn{
+    width: 70px;
+    height: 35px;
+    background-color: rgb(31,110,190);
+    float: left;
+    margin-left: 230px;
+    display: block;
+    border-radius: 5px;
+    color:white;
+}
+
+.bfq .main .show  .playbtn img{
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-left: 8px;
+}
+
+.bfq .main .tglist{
+    height: 35px;
+    width: 750px;
+    border-bottom: 2px solid #c20c0c;
+    padding-left: 35px;
+}
+
+.bfq .main .tglist span{
+    line-height: 28px;
+    font-size: 20px;
+    display: block;
+    float: left;
+}
+
+.bfq .main .tglist .mnum{
+    margin: 10px 0 0 20px;
+    float: left;
+    display: block;
+    font-size: 12px;
+    color: #777777;
+}
+
+.bfq .mlist{
+    width: 750px;
+    height: 600px;
+    float: right;
+    border: 2px solid yellow;
+    display: block;
+    background-color: white;
+}
+
+.bfq .mlist >table{
+    border: 0;
+}
+
+.bfq .mlist > table > thead > tr > th{
+    background-color: #f5f5f5;
+    height: 38px;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    vertical-align: top;
+    text-align: left;
+    font-weight: normal;
+    color: #666;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.bfq .mlist .w1{
+    width: 75px;
+}
+
+.bfq .mlist .w2{
+    width: 300px;
+    border: 1px;
+    padding: 8px 10px;
+    font-size: 15px;
+}
+
+.bfq .mlist .w3{
+    width: 120px;
+    border: 1px;
+    padding: 8px 10px;
+    font-size: 15px;
+}
+
+.bfq .mlist .w4{
+    width: 105px;
+    border: 1px;
+    padding: 8px 10px;
+    font-size: 15px;
+}
+
+.bfq .mlist .w5{
+    width: 125px;
+    border: 1px;
+    padding: 8px 10px;
+    font-size: 15px;
+}
+
