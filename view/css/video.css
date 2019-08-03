@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F5F5F5;
+
+}
+
+.clearFloat::after {
+    content: '';
+    height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearFloat {
+    zoom: 1;
+}
+
+.main{
+    width: 1100px;
+    height: 1000px;
+    /*border: solid black;*/
+    background-color: #FAFAFA;
+    margin: auto auto;
+    border: solid #D3D3D3 1px;
+    /*box-shadow: 0 0 7px 4px #8888;*/
+}
+
+.main .left{
+
+    float: left;
+    width: 700px;
+    height: 100%;
+    margin: 20px 10px 0 30px;
+    /*border: solid red;*/
+}
+
+.main .left .title{
+    height: 60px;
+    width: 100%;
+    /*border: solid yellow;*/
+    /*line-height: 60px;*/
+    font-size: 35px;
+}
+
+.main .left .video{
+    height: 443px;
+    width: 100%;
+    /*border: solid blue;*/
+    margin: 0px 0 10px 0;
+}
+.main .left .video .videoMain{
+    height: 393px;
+}
+.main .left .video .videoMain  video{
+    width: 700px;
+    height: 393px;
+}
+.main .left .video .program{
+    height: 3px;
+    width: 100%;
+    background-color: rgb(108,108,108);
+}
+.main .left .video .program .bar{
+    float: left;
+    height: 3px;
+    width: 20%;
+    background-color: #E83C3C;
+}
+/*.main .left .video .program .bar .circle{*/
+    /*width: 15px;*/
+    /*height: 15px;*/
+    /*border-radius: 50px;*/
+    /*z-index: 20;*/
+    /*border: 1px solid black;*/
+    /*background-color: white;*/
+/*}*/
+/*.main .left .video .program .bar .circle img{*/
+    /*float: left;*/
+    /*border-radius: 50%;*/
+    /*width: 7px;*/
+    /*height: 7px;*/
+    /*overflow: hidden;*/
+    /*margin-left: 4px;*/
+    /*margin-top: 4px;*/
+/*}*/
+
+.main .left .video .control{
+    height: 50px;
+    background-color: #111111;
+}
+.main .left .video .control .play{
+    float: left;
+    display: flex;
+    width: 50px;
+    height: 100%;
+    /*background-color: #111111;*/
+    /*border:  solid white;*/
+}
+.main .left .video .control .play img{
+    width: 40px;
+    height: 40px;
+    margin: auto auto;
+    /*background-color: #111111;*/
+}
+.main .left .video .control .time{
+    display: flex;
+    float: left;
+
+    width: 150px;
+    height: 100%;
+    font-size: 18px;
+    line-height: 50px;
+    color: #C1C1C1;
+    margin: auto 10px;
+    /*background-color: #111111;*/
+}
+.main .left .video .control .time .divide{
+    margin: auto 7px;
+}
+
+.main .left .video .control .full {
+    float: right;
+    display: flex;
+    width: 50px;
+    height: 100%;
+}
+.main .left .video .control .full img{
+    width: 25px;
+    height: 25px;
+    transform: rotate(90deg);
+    margin: auto auto;
+}
+.main .left .video .control .clear{
+    margin-top: 12px;
+    float: right;
+    display: flex;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    color: #C1C1C1;
+    border-right: 1px solid #353535;
+}
+.main .left .video .control .clear img{
+    width: 25px;
+    height: 25px;
+    margin: auto 10px;
+}
+.main .left .video .control .volume{
+    margin-top: 12px;
+    float: right;
+    display: flex;
+    width: 150px;
+    height: 50%;
+    border-right: 1px solid #353535;
+}
+.main .left .video .control .volume .volume_img{
+    width: 25px;
+    height: 25px;
+}
+.main .left .video .control .volume .volume_img img{
+    width: 25px;
+    height: 25px;
+    margin: auto;
+}
+.main .left .video .control .volume .v_program{
+    height: 2px;
+    width: 100px;
+    /*margin-top: 11px;*/
+    background-color: #292901;
+    margin: 11px 10px 0 10px;
+}
+.main .left .video .control .volume .v_program .v_bar{
+    height: 2px;
+    width: 30%;
+    background-color: #E83C3C;
+}
+
+.main .left .other{
+    height: 40px;
+    width: 100%;
+    /*border: solid palegreen;*/
+}
+.main .left .other .btn_type{
+    float: left;
+    display: block;
+    height: 25px;
+    border-radius: 3px;
+    border: 1px #C4C4C4 solid;
+    padding: 0 6px;
+    margin-top: 6px;
+    background-color: #F1F1F1;
+    margin-right: 10px;
+    /*box-shadow: 0 0 10px 1px black;*/
+}
+.main .left .other .btn_type:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.main .left .other .btn_type img{
+    float: left;
+    display: block;
+    height: 20px;
+    width: 20px;
+    margin: 2px 5px;
+}
+.main .left .other .btn_type span{
+    float: left;
+    display: block;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 0 6px;
+}
+.main .left .other .collect{
+    float: left;
+    display: block;
+    height: 25px;
+    border-radius: 3px;
+
+}
+
+.main .right{
+    float: right;
+    width: 300px;
+    height: 100%;
+    margin-top: 20px;
+    margin-right: 40px;
+    /*border: solid dodgerblue;*/
+}
+
+.main .right .produce{
+    height: 150px;
+    width: 100%;
+    /*border: coral solid;*/
+}
+
+.main .right .produce .produceTitle{
+    height: 40px;
+    width: 100%;
+    font-size: 18px;
+    line-height: 40px;
+    /*border: solid hotpink;*/
+    border-bottom: 1px #d3d3d3 solid;
+}
+
+.main .right .produce .produceMain{
+    height: 100px;
+    width: 100%;
+
+    margin-top: 10px;
+    line-height: 25px;
+
+    font-size: 14px;
+
+    white-space:normal;
+    word-wrap:break-word;
+    word-break:break-all;
+
+    /*border: solid seagreen;*/
+}
+
+.main .right .list{
+    height: 430px;
+    width: 100%;
+    /*border: solid sienna;*/
+}
+
+.main .right .list .listTitle{
+    height: 40px;
+    width: 100%;
+    font-size: 18px;
+    line-height: 40px;
+    /*border: solid lawngreen;*/
+    border-bottom: 1px #d3d3d3 solid;
+}
+
+.main .right .list .listMain{
+    height: 380px;
+    width: 100%;
+    /*border: solid firebrick;*/
+}
+
+.main .right .list .listMain ul li{
+    display: block;
+    float: left;
+    list-style: none;
+    margin: 20px 0 0 0;
+}
+.main .right .list .listMain ul li:hover{
+    cursor: pointer;
+}
+.main .right .list .listMain ul li img{
+    display: block;
+    float: left;
+    width: 150px;
+    height: 90px;
+}
+.main .right .list .listMain ul li span{
+    margin: 0 0 0 10px;
+    display: block;
+    float: left;
+
+    width: 140px;
+
+    /*过长省略*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.main .right .list .listMain ul li span p:nth-child(2){
+    margin: 5px auto;
+    color: gray;
+}
