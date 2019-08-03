@@ -30,7 +30,7 @@ body{
 .bfq {
     width: 1000px;
     height: 900px;
-    border: 1px solid gray;
+    border: 1px solid #d3d3d3;
     position: relative;
     margin: auto;
     overflow: hidden;
@@ -40,8 +40,9 @@ body{
     width: 250px;
     height: 900px;
     float: left;
-    border: 1px solid red;
+    border: 1px solid #d3d3d3;
     position: absolute;
+    padding-top: 35px;
     background-color: rgb(249,249,249);
 }
 
@@ -49,7 +50,7 @@ body{
     width: 750px;
     height: 300px;
     float: right;
-    border: 2px solid yellow;
+    /*border: 2px solid yellow;*/
     display: block;
     background-color: white;
     /*margin-left: 250px;*/
@@ -60,7 +61,7 @@ body{
 .bfq .main .show{
     width: 700px;
     height: 200px;
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     padding: 25px;
 }
 
@@ -77,7 +78,7 @@ body{
     height: 90px;
     display: block;
     margin-left: 230px;
-    border: 1px solid #00B7FF;
+    /*border: 1px solid #00B7FF;*/
 }
 
 .bfq .main .show .wenzi h1{
@@ -120,6 +121,7 @@ body{
     height: 18px;
     float: left;
     margin-left: 8px;
+    /*border: 1px solid #d3d3d3;*/
 }
 
 .bfq .main .tglist{
@@ -148,7 +150,7 @@ body{
     width: 750px;
     height: 600px;
     float: right;
-    border: 2px solid yellow;
+    border: 1px solid #d3d3d3;
     display: block;
     background-color: white;
 }
@@ -202,3 +204,192 @@ body{
     font-size: 15px;
 }
 
+.bfq .gedan .mygeda img{
+    width: 14px;
+    height: 14px;
+}
+
+.bfq .gedan .mygeda{
+    display: block;
+    padding: 0 10px 12px 15px;
+    font-size: 14px;
+}
+
+.bfq .gedan .mygeda .gnum{
+    display: inline;
+    width: 10px;
+    height: 20px;
+}
+
+.bfq .gedan > ul > li {
+    width: 230px;
+    height: 42px;
+    padding: 6px 0 6px 20px;
+    /*background-color: #e6e6e6;*/
+}
+
+.bfq .gedan .gblock{
+
+}
+
+.bfq .gedan .ongblock img{
+    width: 40px;
+    height: 40px;
+    float: left;
+    padding-right: 10px;
+}
+
+.bfq .gedan .gblock .gbname{
+    font-size: 12px;
+    display: block;
+    width: 150px;
+    float: left;
+    color: #000;
+    margin: 2px 0px 6px;
+}
+
+.bfq .gedan .gblock .gbnum{
+    width: 130px;
+    font-size: 12px;
+    color: #555555;
+    float: left;
+}
+
+.bfq .mlist .rlist >tr{
+    background-color: #DCDCDC;
+}
+
+.bfq .mlist .rlist >th{
+    line-height: 18px;
+    height: 18px;
+    text-align: left;
+    background-color: #DCDCDC;
+
+}
+
+.bfq .mlist .rlist .r1{
+    width: 54px;
+    padding: 6px 10px;
+}
+
+.bfq .mlist .rlist .r1 span{
+    color: #999999;
+    font-size: 13px;
+    margin-left: 5px;
+    float: left;
+}
+
+.bfq .mlist .rlist .r1 img{
+    width: 18px;
+    height: 18px;
+    float: right;
+    text-overflow:ellipsis ;
+}
+
+.bfq .mlist .rlist .r2{
+    width: 305px;
+    padding: 6px 10px;
+    text-align: left;
+    text-overflow:ellipsis ;
+}
+
+.bfq .mlist .rlist .r3{
+    width: 120px;
+    padding: 6px 10px;
+    text-align: left;
+    text-overflow:ellipsis ;
+}
+
+.bfq .mlist .rlist .r4{
+    width: 105px;
+    padding: 6px 10px;
+    text-align: left;
+    text-overflow:ellipsis ;
+}
+
+.bfq .mlist .rlist .r5{
+    padding: 6px 10px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow:ellipsis ;
+}
+
+.control{
+    width: 100%;
+    height: 50px;
+    background-color: #292929;
+    position: fixed;
+    bottom: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.control .controlbar{
+    height: 50px;
+    width: 1000px;
+    margin: auto;
+}
+
+.control .controlbar .btnGrop{
+    width: 140px;
+    height: 50px;
+    float: left;
+    margin-top: 10px;
+}
+
+.control .controlbar .btnGrop .pre{
+    width: 28px ;
+    height: 28px;
+    margin: 3px 9px 0 0;
+    float: left;
+}
+
+.control .controlbar .btnGrop .play{
+    width: 36px ;
+    height: 36px;
+    margin: 0 9px 0 0;
+    float: left;
+}
+
+.control .controlbar .btnGrop .next{
+    width: 28px ;
+    height: 28px;
+    margin: 3px 9px 0 0;
+    float: left;
+}
+
+.control .controlbar .mpic{
+    width: 34px;
+    height:34px;
+    margin: 7px 10px 0 0;
+    float: left;
+}
+
+.control .controlbar .nameGroup{
+    width: 600px;
+    height: 28px;
+    line-height: 28px;
+    float: left;
+}
+
+.control .controlbar .nameGroup .ngname{
+    max-width: 300px;
+    overflow: hidden;
+    font-size: 13px;
+    color: whitesmoke;
+    display: block;
+    float: left;
+    line-height: 28px;
+    text-overflow:ellipsis ;
+}
+
+.control .controlbar .nameGroup span{
+    display: block;
+    float: left;
+    font-size: 12px;
+    max-width: 210px;
+    line-height: 28px;
+    color: #999999;
+    margin: 1px 0 0 15px;
+    text-overflow:ellipsis ;
+}

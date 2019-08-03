@@ -7,11 +7,25 @@
 </head>
 <body>
 <audio id="audio"></audio>
-<div id="bfq" class="clearFloat bfq" >
+<div id="bfq" class="clearFloat bfq">
     <div id="gedan" class="clearFloat gedan">
-        <div id="mygeda" class="mygedan">
-            <img>
+        <div id="mygeda" class="mygeda">
+            <img src="img/mbleow.png">
+            我的歌单（
+            <div id="gnum" class="gnum">
+                1
+            </div>
+            ）
         </div>
+        <ul>
+            <li class="ongblock">
+                <div id="gblock" class="gblock clearFloat">
+                    <img src="">
+                    <div id="gbname" class="gbname">我喜欢的音乐</div>
+                    <div id="gbnum" class="gbnum">1首</div>
+                </div>
+            </li>
+        </ul>
     </div>
     <div id="main" class="main clearFloat">
         <div id="show" class="show clearFloat">
@@ -24,16 +38,16 @@
             <button id="playbtn" class="playbtn"><img src="img/mplay.png">播放</button>
         </div>
         <div id="tglist" class="tglist clearFloat">
-            <span >歌曲列表</span>
+            <span>歌曲列表</span>
             <div id="mnum" class="mnum">1首歌</div>
         </div>
     </div>
     <div id="mlist" class="mlist">
-        <table class="table" >
+        <table class="table">
             <thead>
             <tr>
-                <th >
-                    <div class="w1" ></div>
+                <th>
+                    <div class="w1"></div>
                 </th>
                 <th>
                     <div class="w2">歌曲标题</div>
@@ -46,13 +60,58 @@
                 </th>
                 <th>
                     <div class="w5">专辑</div>
-                </th >
+                </th>
             </tr>
             </thead>
         </table>
-    </div>
-    <div id="control" class="control">
+        <table id="rlist" class="rlist">
+            <tr>
+                <th>
+                    <div class="r1">
+                        <span>1</span>
+                        <img src="img/mplay-r.png">
+                    </div>
 
+                </th>
+                <th>
+                    <div class="r2">
+                        dfsdfsdf
+                    </div>
+                </th>
+                <th>
+                    <div class="r3">
+                        03:00
+                    </div>
+                </th>
+                <th>
+                    <div class="r4">
+                        fsdfsdf
+                    </div>
+                </th>
+                <th>
+                    <div class="r5">
+                        sdfsdfsddfsdfs
+                    </div>
+                </th>
+            </tr>
+        </table>
+    </div>
+</div>
+<div id="control" class="control">
+    <div id="controlbar" class="controlbar clearFloat">
+        <div id="btnGroup" class="btnGrop ">
+            <img src="img/mnext.png" id="pre" class="pre">
+            <img src="img/mplay-w.png" id="play" class="play">
+            <img src="img/mpre.png" id="next" class="next">
+        </div>
+        <img src="" id="mpic" class="mpic">
+        <div id="nameGroup" class="nameGroup">
+            <div id="ngname" class="ngname">dsfsdfsd</div>
+            <span>dsfsdf</span>
+        </div>
+        <div class="progress" id="progress">
+            <div class="bar" id="progressBar"></div>
+        </div>
     </div>
 </div>
 </body>
