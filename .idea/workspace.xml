@@ -1,26 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6511471f-5385-4967-beea-15b7281e5290" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/css/video.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/img/collect.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/img/download.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/img/full-off.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/img/full-on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/img/play-off.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/img/play-on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/img/point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/img/praise.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/img/share.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/img/tv-off.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/img/tv-on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/img/volume-off.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/img/volume-on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/js/jquery-2.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/video.html" afterDir="false" />
+    <list default="true" id="6511471f-5385-4967-beea-15b7281e5290" name="Default Changelist" comment="video界面html+css大致完成">
+      <change afterPath="$PROJECT_DIR$/view/img/video/off/stop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/img/video/on/stop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/js/video.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/img/full-off.png" beforeDir="false" afterPath="$PROJECT_DIR$/view/img/video/off/full.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/img/full-on.png" beforeDir="false" afterPath="$PROJECT_DIR$/view/img/video/on/full.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/img/play-off.png" beforeDir="false" afterPath="$PROJECT_DIR$/view/img/video/off/play.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/img/play-on.png" beforeDir="false" afterPath="$PROJECT_DIR$/view/img/video/on/play.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/img/tv-off.png" beforeDir="false" afterPath="$PROJECT_DIR$/view/img/video/off/tv.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/img/tv-on.png" beforeDir="false" afterPath="$PROJECT_DIR$/view/img/video/on/tv.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/img/volume-off.png" beforeDir="false" afterPath="$PROJECT_DIR$/view/img/video/off/volume.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/img/volume-on.png" beforeDir="false" afterPath="$PROJECT_DIR$/view/img/video/on/volume.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/video.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,33 +25,50 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/view/video.html">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="633">
+                    <caret line="42" column="54" lean-forward="true" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
+                    <folding>
+                      <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/view/css/video.css">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="80">
+                    <caret line="56" column="18" lean-forward="true" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/video.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-              <folding>
-                <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#2191#2197#0" expanded="true" />
-                <element signature="e#2197#2203#0" expanded="true" />
-                <element signature="e#2203#2209#0" expanded="true" />
-                <element signature="e#2209#2215#0" expanded="true" />
-                <element signature="e#2215#2221#0" expanded="true" />
-                <element signature="e#2221#2227#0" expanded="true" />
-                <element signature="e#2227#2233#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/view/css/video.css">
+        <entry file="file://$PROJECT_DIR$/view/js/video.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+            <state relative-caret-position="625">
+              <caret line="106" column="15" lean-forward="true" selection-start-line="106" selection-start-column="15" selection-end-line="106" selection-end-column="15" />
+              <folding>
+                <element signature="e#378#725#0" />
+                <element signature="n#!!block;n#getTime#0" />
+                <element signature="e#2024#2032#0" />
+                <element signature="e#2517#2525#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,10 +78,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>video</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -82,16 +98,17 @@
         <option value="$PROJECT_DIR$/view/d.html" />
         <option value="$PROJECT_DIR$/routes/MySqlDao.js" />
         <option value="$PROJECT_DIR$/view/css/video.html" />
-        <option value="$PROJECT_DIR$/view/video.html" />
         <option value="$PROJECT_DIR$/view/css/video.css" />
+        <option value="$PROJECT_DIR$/view/video.html" />
+        <option value="$PROJECT_DIR$/view/js/video.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="412" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="812" />
+    <option name="y" value="109" />
+    <option name="width" value="1440" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -118,6 +135,12 @@
               <item name="view" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="simple-video-player" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simple-video-player" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -137,12 +160,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\admin\WebstormProjects\simple-video-player\view\img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\admin\WebstormProjects\simple-video-player\view\img" />
       <recent name="C:\Users\admin\WebstormProjects\simple-video-player\view\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\WebstormProjects\simple-video-player\view\img\video" />
+      <recent name="C:\Users\admin\WebstormProjects\simple-video-player\view\img\on" />
+      <recent name="C:\Users\admin\WebstormProjects\simple-video-player\view\img\off" />
+      <recent name="C:\Users\admin\WebstormProjects\simple-video-player\view\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -168,24 +194,32 @@
       <option name="presentableId" value="Default" />
       <updated>1564799012283</updated>
       <workItem from="1564799013369" duration="422000" />
-      <workItem from="1564833680549" duration="17923000" />
+      <workItem from="1564833680549" duration="18894000" />
+      <workItem from="1564878800635" duration="6893000" />
     </task>
+    <task id="LOCAL-00001" summary="video界面html+css大致完成">
+      <created>1564851932759</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564851932760</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18345000" />
+    <option name="totallyTimeSpent" value="26209000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="412" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24920969" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.117492095" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="DB Browser" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286385" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -195,7 +229,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
       <window_info anchor="bottom" id="SmartIM" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.2697201" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -204,6 +238,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="video界面html+css大致完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="video界面html+css大致完成" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/routes/users.js">
@@ -245,40 +283,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/img/point.png">
+    <entry file="file://$PROJECT_DIR$/view/img/video/off/full.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/img/play-off.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/img/full-off.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/img/play-on.png">
+    <entry file="file://$PROJECT_DIR$/view/img/video/on/play.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/view/video.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        <state relative-caret-position="633">
+          <caret line="42" column="54" lean-forward="true" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#2191#2197#0" expanded="true" />
-            <element signature="e#2197#2203#0" expanded="true" />
-            <element signature="e#2203#2209#0" expanded="true" />
-            <element signature="e#2209#2215#0" expanded="true" />
-            <element signature="e#2215#2221#0" expanded="true" />
-            <element signature="e#2221#2227#0" expanded="true" />
-            <element signature="e#2227#2233#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/view/img/video/off/volume.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/img/video/on/volume.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/img/point.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/img/praise.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/img/video/off/play.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/view/css/video.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+        <state relative-caret-position="80">
+          <caret line="56" column="18" lean-forward="true" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/js/video.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="106" column="15" lean-forward="true" selection-start-line="106" selection-start-column="15" selection-end-line="106" selection-end-column="15" />
+          <folding>
+            <element signature="e#378#725#0" />
+            <element signature="n#!!block;n#getTime#0" />
+            <element signature="e#2024#2032#0" />
+            <element signature="e#2517#2525#0" />
+          </folding>
         </state>
       </provider>
     </entry>

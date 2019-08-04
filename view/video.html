@@ -8,14 +8,14 @@
 <body>
 <div class="main">
 <div class="left clearFloat">
-    <div class="title">这是视频标题</div>
+    <div class="title" id="title">这是视频标题</div>
     <div class="video">
         <div class="videoMain">
-            <video src="http://vfx.mtime.cn/Video/2019/03/19/mp4/190319222227698228.mp4" controls>
+            <video id="video" src="https://media.w3.org/2010/05/sintel/trailer.mp4" poster="img/video/希儿.png">
             </video>
         </div>
-        <div class="program">
-            <div class="bar">
+        <div class="program" id="program">
+            <div class="bar" id="programBar">
                 <!--<div class="circle" style="float: left">-->
                     <!--<img src="img/point.png">-->
                 <!--</div>-->
@@ -23,44 +23,44 @@
         </div>
         <div class="control" style="display: block">
             <div class="play">
-                <img src="img/play-off.png" alt="">
+                <img src="img/video/off/play.png" alt="" id="play">
             </div>
             <div class="time">
-                <div class="nowTime">01:00</div>
+                <div class="nowTime" id="nowTime">01:00</div>
                 <div class="divide">/</div>
-                <div class="endTime">03:24</div>
+                <div class="endTime" id="endTime">03:24</div>
             </div>
             <div class="full">
-                <img src="img/full-off.png" alt="">
+                <img src="img/video/off/full.png" alt="" id="full">
             </div>
             <div class="clear">
-                <img src="img/tv-off.png">高清
+                <img src="img/video/off/tv.png">高清
             </div>
             <div class="volume">
                 <div class="volume_img">
-                    <img src="img/volume-off.png" alt="">
+                    <img src="img/video/off/volume.png" alt="" id="volume">
                 </div>
-                <div class="v_program">
-                    <div class="v_bar"></div>
+                <div class="v_program" id="v_program">
+                    <div class="v_bar" id="v_bar"></div>
                 </div>
             </div>
         </div>
     </div>
     <div class="other">
         <div class="btn_type">
-            <img src="img/praise.png" alt="">
+            <img src="img/video/praise.png" alt="">
             <span>赞(100)</span>
         </div>
         <div class="btn_type">
-            <img src="img/collect.png" alt="">
+            <img src="img/video/collect.png" alt="">
             <span>收藏(50)</span>
         </div>
         <div class="btn_type">
-            <img src="img/share.png" alt="">
+            <img src="img/video/share.png" alt="">
             <span>分享(5)</span>
         </div>
         <div class="btn_type">
-            <img src="img/download.png" alt="">
+            <img src="img/video/download.png" alt="">
             <span>下载(80)</span>
         </div>
         <div></div>
@@ -76,35 +76,35 @@
         <div class="listMain">
             <ul>
                 <li>
-                    <img src="img/希儿.png" alt="">
+                    <img src="img/video/希儿.png" alt="">
                     <span>
                         <p>这是标题</p>
                         <p>05:30</p>
                     </span>
                 </li>
                 <li>
-                    <img src="img/希儿.png" alt="">
+                    <img src="img/video/希儿.png" alt="">
                     <span>
                         <p>这是标题</p>
                         <p>05:30</p>
                     </span>
                 </li>
                 <li>
-                    <img src="img/希儿.png" alt="">
+                    <img src="img/video/希儿.png" alt="">
                     <span>
                         <p>这是标题</p>
                         <p>05:30</p>
                     </span>
                 </li>
                 <li>
-                    <img src="img/希儿.png" alt="">
+                    <img src="img/video/希儿.png" alt="">
                     <span>
                         <p>这是标题</p>
                         <p>05:30</p>
                     </span>
                 </li>
                 <li>
-                    <img src="img/希儿.png" alt="">
+                    <img src="img/video/希儿.png" alt="">
                     <span>
                         <p>这是标题</p>
                         <p>05:30</p>
@@ -116,4 +116,5 @@
 </div>
 </div>
 </body>
+<script src="js/video.js"></script>
 </html>
