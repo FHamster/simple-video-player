@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6511471f-5385-4967-beea-15b7281e5290" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/view/img/mbleow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/img/manniu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/img/mpause.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/css/music.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/css/music.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/img/mbelow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/img/mnext.png" beforeDir="false" afterPath="$PROJECT_DIR$/view/img/mnext.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/img/mpre.png" beforeDir="false" afterPath="$PROJECT_DIR$/view/img/mpre.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/music.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/music.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,8 +24,11 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/view/music.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="143">
-                  <caret line="107" column="22" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
+                <state relative-caret-position="-74">
+                  <caret line="100" column="6" selection-start-line="100" selection-start-column="6" selection-end-line="100" selection-end-column="6" />
+                  <folding>
+                    <element signature="e#3697#3703#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -35,12 +36,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/view/css/music.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="390" column="22" selection-start-line="390" selection-start-column="22" selection-end-line="390" selection-end-column="22" />
+                <state relative-caret-position="210">
+                  <caret line="475" column="14" selection-start-line="475" selection-start-column="14" selection-end-line="475" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -73,9 +74,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="940" />
-    <option name="y" value="71" />
-    <option name="width" value="970" />
+    <option name="x" value="193" />
+    <option name="y" value="23" />
+    <option name="width" value="1219" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -168,7 +169,8 @@
       <option name="presentableId" value="Default" />
       <updated>1564799012283</updated>
       <workItem from="1564799013369" duration="422000" />
-      <workItem from="1564831925807" duration="16309000" />
+      <workItem from="1564831925807" duration="16407000" />
+      <workItem from="1564877849774" duration="3153000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1564844032891</created>
@@ -177,22 +179,28 @@
       <option name="project" value="LOCAL" />
       <updated>1564844032891</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2">
+      <created>1564851367432</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564851367432</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16731000" />
+    <option name="totallyTimeSpent" value="19982000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="940" y="71" width="970" height="877" extended-state="0" />
+    <frame x="193" y="23" width="1219" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38146552" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3075616" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="DB Browser" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -206,10 +214,11 @@
       <window_info anchor="bottom" id="SmartIM" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
@@ -242,7 +251,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/routes/users.js">
@@ -284,17 +294,23 @@
     <entry file="file://$PROJECT_DIR$/view/img/mnext.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/view/img/mplay-w.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/view/music.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="107" column="22" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
+        <state relative-caret-position="-74">
+          <caret line="100" column="6" selection-start-line="100" selection-start-column="6" selection-end-line="100" selection-end-column="6" />
+          <folding>
+            <element signature="e#3697#3703#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/css/music.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="390" column="22" selection-start-line="390" selection-start-column="22" selection-end-line="390" selection-end-column="22" />
+        <state relative-caret-position="210">
+          <caret line="475" column="14" selection-start-line="475" selection-start-column="14" selection-end-line="475" selection-end-column="14" />
         </state>
       </provider>
     </entry>
