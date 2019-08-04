@@ -3,15 +3,15 @@
     padding: 0;
 }
 
-li{
+li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.clearFloat::after{
+.clearFloat::after {
     content: '';
     height: 0;
     display: block;
@@ -19,11 +19,11 @@ a{
     visibility: hidden;
 }
 
-.clearFloat{
+.clearFloat {
     zoom: 1;
 }
 
-body{
+body {
     background-color: #fffff5;
 }
 
@@ -36,17 +36,17 @@ body{
     overflow: hidden;
 }
 
-.bfq .gedan{
+.bfq .gedan {
     width: 250px;
     height: 900px;
     float: left;
     border: 1px solid #d3d3d3;
     position: absolute;
     padding-top: 35px;
-    background-color: rgb(249,249,249);
+    background-color: rgb(249, 249, 249);
 }
 
-.bfq .main{
+.bfq .main {
     width: 750px;
     height: 300px;
     float: right;
@@ -58,14 +58,14 @@ body{
     /*position: absolute;*/
 }
 
-.bfq .main .show{
+.bfq .main .show {
     width: 700px;
     height: 200px;
     /*border: 1px solid blue;*/
     padding: 25px;
 }
 
-.bfq .main .show .pic{
+.bfq .main .show .pic {
     width: 200px;
     height: 200px;
     display: block;
@@ -73,7 +73,7 @@ body{
     position: absolute;
 }
 
-.bfq .main .show .wenzi{
+.bfq .main .show .wenzi {
     width: 400px;
     height: 90px;
     display: block;
@@ -81,13 +81,13 @@ body{
     /*border: 1px solid #00B7FF;*/
 }
 
-.bfq .main .show .wenzi h1{
+.bfq .main .show .wenzi h1 {
     line-height: 24px;
     font-size: 20px;
     padding: 0 0 10px 0;
 }
 
-.bfq .main .show .wenzi img{
+.bfq .main .show .wenzi img {
     display: block;
     width: 40px;
     height: 40px;
@@ -95,28 +95,28 @@ body{
     float: left;
 }
 
-.bfq .main .show .wenzi .uname{
+.bfq .main .show .wenzi .uname {
     line-height: 40px;
     max-width: 100px;
-    color: rgb(34,115,194);
+    color: rgb(34, 115, 194);
     display: block;
     margin-left: 20px;
     float: left;
 
 }
 
-.bfq .main .show  .playbtn{
+.bfq .main .show .playbtn {
     width: 70px;
     height: 35px;
-    background-color: rgb(31,110,190);
+    background-color: rgb(31, 110, 190);
     float: left;
     margin-left: 230px;
     display: block;
     border-radius: 5px;
-    color:white;
+    color: white;
 }
 
-.bfq .main .show  .playbtn img{
+.bfq .main .show .playbtn img {
     width: 18px;
     height: 18px;
     float: left;
@@ -124,21 +124,21 @@ body{
     /*border: 1px solid #d3d3d3;*/
 }
 
-.bfq .main .tglist{
+.bfq .main .tglist {
     height: 35px;
     width: 750px;
     border-bottom: 2px solid #c20c0c;
     padding-left: 35px;
 }
 
-.bfq .main .tglist span{
+.bfq .main .tglist span {
     line-height: 28px;
     font-size: 20px;
     display: block;
     float: left;
 }
 
-.bfq .main .tglist .mnum{
+.bfq .main .tglist .mnum {
     margin: 10px 0 0 20px;
     float: left;
     display: block;
@@ -146,7 +146,7 @@ body{
     color: #777777;
 }
 
-.bfq .mlist{
+.bfq .mlist {
     width: 750px;
     height: 600px;
     float: right;
@@ -155,11 +155,11 @@ body{
     background-color: white;
 }
 
-.bfq .mlist >table{
+.bfq .mlist > table {
     border: 0;
 }
 
-.bfq .mlist > table > thead > tr > th{
+.bfq .mlist > table > thead > tr > th {
     background-color: #f5f5f5;
     height: 38px;
     background-position: 0 0;
@@ -172,50 +172,50 @@ body{
     border-bottom: 1px solid gray;
 }
 
-.bfq .mlist .w1{
+.bfq .mlist .w1 {
     width: 75px;
 }
 
-.bfq .mlist .w2{
+.bfq .mlist .w2 {
     width: 300px;
     border: 1px;
     padding: 8px 10px;
     font-size: 15px;
 }
 
-.bfq .mlist .w3{
+.bfq .mlist .w3 {
     width: 120px;
     border: 1px;
     padding: 8px 10px;
     font-size: 15px;
 }
 
-.bfq .mlist .w4{
+.bfq .mlist .w4 {
     width: 105px;
     border: 1px;
     padding: 8px 10px;
     font-size: 15px;
 }
 
-.bfq .mlist .w5{
+.bfq .mlist .w5 {
     width: 125px;
     border: 1px;
     padding: 8px 10px;
     font-size: 15px;
 }
 
-.bfq .gedan .mygeda img{
+.bfq .gedan .mygeda img {
     width: 14px;
     height: 14px;
 }
 
-.bfq .gedan .mygeda{
+.bfq .gedan .mygeda {
     display: block;
     padding: 0 10px 12px 15px;
     font-size: 14px;
 }
 
-.bfq .gedan .mygeda .gnum{
+.bfq .gedan .mygeda .gnum {
     display: inline;
     width: 10px;
     height: 20px;
@@ -228,18 +228,18 @@ body{
     /*background-color: #e6e6e6;*/
 }
 
-.bfq .gedan .gblock{
+.bfq .gedan .gblock {
 
 }
 
-.bfq .gedan .ongblock img{
+.bfq .gedan .ongblock img {
     width: 40px;
     height: 40px;
     float: left;
     padding-right: 10px;
 }
 
-.bfq .gedan .gblock .gbname{
+.bfq .gedan .gblock .gbname {
     font-size: 12px;
     display: block;
     width: 150px;
@@ -248,18 +248,18 @@ body{
     margin: 2px 0px 6px;
 }
 
-.bfq .gedan .gblock .gbnum{
+.bfq .gedan .gblock .gbnum {
     width: 130px;
     font-size: 12px;
     color: #555555;
     float: left;
 }
 
-.bfq .mlist .rlist >tr{
+.bfq .mlist .rlist > tr {
     background-color: #DCDCDC;
 }
 
-.bfq .mlist .rlist >th{
+.bfq .mlist .rlist > th {
     line-height: 18px;
     height: 18px;
     text-align: left;
@@ -267,54 +267,54 @@ body{
 
 }
 
-.bfq .mlist .rlist .r1{
+.bfq .mlist .rlist .r1 {
     width: 54px;
     padding: 6px 10px;
 }
 
-.bfq .mlist .rlist .r1 span{
+.bfq .mlist .rlist .r1 span {
     color: #999999;
     font-size: 13px;
     margin-left: 5px;
     float: left;
 }
 
-.bfq .mlist .rlist .r1 img{
+.bfq .mlist .rlist .r1 img {
     width: 18px;
     height: 18px;
     float: right;
-    text-overflow:ellipsis ;
+    text-overflow: ellipsis;
 }
 
-.bfq .mlist .rlist .r2{
+.bfq .mlist .rlist .r2 {
     width: 305px;
     padding: 6px 10px;
     text-align: left;
-    text-overflow:ellipsis ;
+    text-overflow: ellipsis;
 }
 
-.bfq .mlist .rlist .r3{
+.bfq .mlist .rlist .r3 {
     width: 120px;
     padding: 6px 10px;
     text-align: left;
-    text-overflow:ellipsis ;
+    text-overflow: ellipsis;
 }
 
-.bfq .mlist .rlist .r4{
+.bfq .mlist .rlist .r4 {
     width: 105px;
     padding: 6px 10px;
     text-align: left;
-    text-overflow:ellipsis ;
+    text-overflow: ellipsis;
 }
 
-.bfq .mlist .rlist .r5{
+.bfq .mlist .rlist .r5 {
     padding: 6px 10px;
     text-align: left;
     overflow: hidden;
-    text-overflow:ellipsis ;
+    text-overflow: ellipsis;
 }
 
-.control{
+.control {
     width: 100%;
     height: 50px;
     background-color: #292929;
@@ -324,55 +324,55 @@ body{
     border-top-right-radius: 10px;
 }
 
-.control .controlbar{
+.control .controlbar {
     height: 50px;
     width: 1000px;
     margin: auto;
 }
 
-.control .controlbar .btnGrop{
+.control .controlbar .btnGrop {
     width: 140px;
     height: 50px;
     float: left;
     margin-top: 10px;
 }
 
-.control .controlbar .btnGrop .pre{
-    width: 28px ;
+.control .controlbar .btnGrop .pre {
+    width: 28px;
     height: 28px;
     margin: 3px 9px 0 0;
     float: left;
 }
 
-.control .controlbar .btnGrop .play{
-    width: 36px ;
+.control .controlbar .btnGrop .play {
+    width: 36px;
     height: 36px;
     margin: 0 9px 0 0;
     float: left;
 }
 
-.control .controlbar .btnGrop .next{
-    width: 28px ;
+.control .controlbar .btnGrop .next {
+    width: 28px;
     height: 28px;
     margin: 3px 9px 0 0;
     float: left;
 }
 
-.control .controlbar .mpic{
+.control .controlbar .mpic {
     width: 34px;
-    height:34px;
+    height: 34px;
     margin: 7px 10px 0 0;
     float: left;
 }
 
-.control .controlbar .nameGroup{
+.control .controlbar .nameGroup {
     width: 600px;
     height: 28px;
     line-height: 28px;
     float: left;
 }
 
-.control .controlbar .nameGroup .ngname{
+.control .controlbar .nameGroup .ngname {
     max-width: 300px;
     overflow: hidden;
     font-size: 13px;
@@ -380,10 +380,10 @@ body{
     display: block;
     float: left;
     line-height: 28px;
-    text-overflow:ellipsis ;
+    text-overflow: ellipsis;
 }
 
-.control .controlbar .nameGroup span{
+.control .controlbar .nameGroup span {
     display: block;
     float: left;
     font-size: 12px;
@@ -391,5 +391,90 @@ body{
     line-height: 28px;
     color: #999999;
     margin: 1px 0 0 15px;
-    text-overflow:ellipsis ;
+    text-overflow: ellipsis;
+}
+
+.control .controlbar .progress {
+    width: 500px;
+    height: 9px;
+    float: left;
+    background-position: right 0;
+    background-color: #212121;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 1px #d3d3d3 inset;
+}
+
+.control .controlbar .progress .bar {
+    width: 30%;
+    height: 9px;
+    background-color: #ee8c49;
+    border-radius: 5px;
+}
+
+.control .controlbar .progress .pbtn {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 135px;
+}
+
+.control .controlbar .ptime {
+    width: 80px;
+    height: 14px;
+    display: block;
+    float: left;
+    text-shadow: 0 1px 0 #121212;
+}
+
+.control .controlbar .ptime .nowTime {
+    float: left;
+    width: 30px;
+    font-size: 12px;
+    display: block;
+    margin-left: 10px;
+    margin-top: -3px;
+    color: #a1a1a1;
+}
+
+.control .controlbar .ptime .endTime {
+    margin-left: 5px;
+    width: 35px;
+    float: left;
+    font-size: 12px;
+    display: block;
+    margin-top: -3px;
+    color: #797979;
+}
+
+.control .controlbar .vas{
+    width: 210px;
+    height: 50px;
+    float: right;
+    display: flex;
+    margin-top: -28px;
+}
+
+.control .controlbar .vas img{
+    height: 25px;
+    width: 25px;
+    display: block;
+    margin: auto 5px;
+}
+
+.control .controlbar .vas .volume{
+    width: 150px;
+    height: 8px;
+    display: block;
+    margin-top: 20px;
+    background-color: #212121;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 1px #d3d3d3 inset;
+}
+
+.control .controlbar .vas .volume .bar{
+    width: 30%;
+    height: 8px;
+    border-radius: 5px;
+    background-color: #ee8c49;
 }
