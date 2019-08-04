@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.clearFloat::after{
+    content: '';
+    height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearFloat{
+    zoom: 1;
+}
+
+body{
+    background-color: #fffff5;
+}
+
+.bfq {
+    width: 1000px;
+    height: 900px;
+    border: 1px solid #d3d3d3;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.bfq .gedan{
+    width: 250px;
+    height: 900px;
+    float: left;
+    border: 1px solid #d3d3d3;
+    position: absolute;
+    padding-top: 35px;
+    background-color: rgb(249,249,249);
+}
+
+.bfq .main{
+    width: 750px;
+    height: 300px;
+    float: right;
+    /*border: 2px solid yellow;*/
+    display: block;
+    background-color: white;
+    /*margin-left: 250px;*/
+    /*background-color: #00B7FF;*/
+    /*position: absolute;*/
+}
+
+.bfq .main .show{
+    width: 700px;
+    height: 200px;
+    /*border: 1px solid blue;*/
+    padding: 25px;
+}
+
+.bfq .main .show .pic{
+    width: 200px;
+    height: 200px;
+    display: block;
+    border: 1px solid blue;
+    position: absolute;
+}
+
+.bfq .main .show .wenzi{
+    width: 400px;
+    height: 90px;
+    display: block;
+    margin-left: 230px;
+    /*border: 1px solid #00B7FF;*/
+}
+
+.bfq .main .show .wenzi h1{
+    line-height: 24px;
+    font-size: 20px;
+    padding: 0 0 10px 0;
+}
+
+.bfq .main .show .wenzi img{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid seagreen;
+    float: left;
+}
+
+.bfq .main .show .wenzi .uname{
+    line-height: 40px;
+    max-width: 100px;
+    color: rgb(34,115,194);
+    display: block;
+    margin-left: 20px;
+    float: left;
+
+}
+
+.bfq .main .show  .playbtn{
+    width: 70px;
+    height: 35px;
+    background-color: rgb(31,110,190);
+    float: left;
+    margin-left: 230px;
+    display: block;
+    border-radius: 5px;
+    color:white;
+}
+
+.bfq .main .show  .playbtn img{
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-left: 8px;
+    /*border: 1px solid #d3d3d3;*/
+}
+
+.bfq .main .tglist{
+    height: 35px;
+    width: 750px;
+    border-bottom: 2px solid #c20c0c;
+    padding-left: 35px;
+}
+
+.bfq .main .tglist span{
+    line-height: 28px;
+    font-size: 20px;
+    display: block;
+    float: left;
+}
+
+.bfq .main .tglist .mnum{
+    margin: 10px 0 0 20px;
+    float: left;
+    display: block;
+    font-size: 12px;
+    color: #777777;
+}
+
+.bfq .mlist{
+    width: 750px;
+    height: 600px;
+    float: right;
+    border: 1px solid #d3d3d3;
+    display: block;
+    background-color: white;
+}
+
+.bfq .mlist >table{
+    border: 0;
+}
+
+.bfq .mlist > table > thead > tr > th{
+    background-color: #f5f5f5;
+    height: 38px;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    vertical-align: top;
+    text-align: left;
+    font-weight: normal;
+    color: #666;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.bfq .mlist .w1{
+    width: 75px;
+}
+
+.bfq .mlist .w2{
+    width: 300px;
+    border: 1px;
+    padding: 8px 10px;
+    font-size: 15px;
+}
+
+.bfq .mlist .w3{
+    width: 120px;
+    border: 1px;
+    padding: 8px 10px;
+    font-size: 15px;
+}
+
+.bfq .mlist .w4{
+    width: 105px;
+    border: 1px;
+    padding: 8px 10px;
+    font-size: 15px;
+}
+
+.bfq .mlist .w5{
+    width: 125px;
+    border: 1px;
+    padding: 8px 10px;
+    font-size: 15px;
+}
+
+.bfq .gedan .mygeda img{
+    width: 14px;
+    height: 14px;
+}
+
+.bfq .gedan .mygeda{
+    display: block;
+    padding: 0 10px 12px 15px;
+    font-size: 14px;
+}
+
+.bfq .gedan .mygeda .gnum{
+    display: inline;
+    width: 10px;
+    height: 20px;
+}
+
+.bfq .gedan > ul > li {
+    width: 230px;
+    height: 42px;
+    padding: 6px 0 6px 20px;
+    /*background-color: #e6e6e6;*/
+}
+
+.bfq .gedan .gblock{
+
+}
+
+.bfq .gedan .ongblock img{
+    width: 40px;
+    height: 40px;
+    float: left;
+    padding-right: 10px;
+}
+
+.bfq .gedan .gblock .gbname{
+    font-size: 12px;
+    display: block;
+    width: 150px;
+    float: left;
+    color: #000;
+    margin: 2px 0px 6px;
+}
+
+.bfq .gedan .gblock .gbnum{
+    width: 130px;
+    font-size: 12px;
+    color: #555555;
+    float: left;
+}
+
+.bfq .mlist .rlist >tr{
+    background-color: #DCDCDC;
+}
+
+.bfq .mlist .rlist >th{
+    line-height: 18px;
+    height: 18px;
+    text-align: left;
+    background-color: #DCDCDC;
+
+}
+
+.bfq .mlist .rlist .r1{
+    width: 54px;
+    padding: 6px 10px;
+}
+
+.bfq .mlist .rlist .r1 span{
+    color: #999999;
+    font-size: 13px;
+    margin-left: 5px;
+    float: left;
+}
+
+.bfq .mlist .rlist .r1 img{
+    width: 18px;
+    height: 18px;
+    float: right;
+    text-overflow:ellipsis ;
+}
+
+.bfq .mlist .rlist .r2{
+    width: 305px;
+    padding: 6px 10px;
+    text-align: left;
+    text-overflow:ellipsis ;
+}
+
+.bfq .mlist .rlist .r3{
+    width: 120px;
+    padding: 6px 10px;
+    text-align: left;
+    text-overflow:ellipsis ;
+}
+
+.bfq .mlist .rlist .r4{
+    width: 105px;
+    padding: 6px 10px;
+    text-align: left;
+    text-overflow:ellipsis ;
+}
+
+.bfq .mlist .rlist .r5{
+    padding: 6px 10px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow:ellipsis ;
+}
+
+.control{
+    width: 100%;
+    height: 50px;
+    background-color: #292929;
+    position: fixed;
+    bottom: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.control .controlbar{
+    height: 50px;
+    width: 1000px;
+    margin: auto;
+}
+
+.control .controlbar .btnGrop{
+    width: 140px;
+    height: 50px;
+    float: left;
+    margin-top: 10px;
+}
+
+.control .controlbar .btnGrop .pre{
+    width: 28px ;
+    height: 28px;
+    margin: 3px 9px 0 0;
+    float: left;
+}
+
+.control .controlbar .btnGrop .play{
+    width: 36px ;
+    height: 36px;
+    margin: 0 9px 0 0;
+    float: left;
+}
+
+.control .controlbar .btnGrop .next{
+    width: 28px ;
+    height: 28px;
+    margin: 3px 9px 0 0;
+    float: left;
+}
+
+.control .controlbar .mpic{
+    width: 34px;
+    height:34px;
+    margin: 7px 10px 0 0;
+    float: left;
+}
+
+.control .controlbar .nameGroup{
+    width: 600px;
+    height: 28px;
+    line-height: 28px;
+    float: left;
+}
+
+.control .controlbar .nameGroup .ngname{
+    max-width: 300px;
+    overflow: hidden;
+    font-size: 13px;
+    color: whitesmoke;
+    display: block;
+    float: left;
+    line-height: 28px;
+    text-overflow:ellipsis ;
+}
+
+.control .controlbar .nameGroup span{
+    display: block;
+    float: left;
+    font-size: 12px;
+    max-width: 210px;
+    line-height: 28px;
+    color: #999999;
+    margin: 1px 0 0 15px;
+    text-overflow:ellipsis ;
+}
