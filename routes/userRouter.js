@@ -6,7 +6,7 @@ let MyQuery = require('./MySqlInter')
  * 获取用户认证标识完成登录
  */
 router.post('/auth', (req, res) => {
-  //let 和 var 都是生命变量的意思
+  //let 和 var 都是声明变量的意思
   //但是let对变量的安全要求更高建议使用let
   let data = req.body
   console.log(data)

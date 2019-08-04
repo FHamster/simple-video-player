@@ -28,9 +28,9 @@ router.post('/mark', (req, res) => {
  * 向收藏夹中删除记录
  */
 router.delete('/mark/:markId', (req, res) => {
-  let markId = req.params.markId
-  console.log(markId)
-  res.json(markId)
+  let markId = req.params.markId;
+  console.log(markId);
+  res.json(markId);
 })
 
-module.exports = router
+module.exports = router;

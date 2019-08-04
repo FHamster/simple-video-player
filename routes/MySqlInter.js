@@ -1,5 +1,5 @@
 //数据库query封装接口
-let mySqlInter = require('mysql')
+let mySqlInter = require('mysql');
 
 let pool = mySqlInter.createPool(
   {
@@ -18,15 +18,15 @@ let pool = mySqlInter.createPool(
 module.exports = MyQuery = function (sqlSta, success) {
   pool.getConnection((err, connect) => {
     if (err) {
-      console.log(err)
+      console.log(err);
     } else {
       // console.log(connect)
       connect.query(sqlSta, (error, result) => {
-        if (error) throw error
-        if (success) success(result)
-      })
+        if (error) throw error;
+        if (success) success(result);
+      });
 
     }
-  })
+  });
 }
 
