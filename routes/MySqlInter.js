@@ -1,6 +1,7 @@
-let mysqlDriver = require('mysql')
+//数据库query封装接口
+let mySqlInter = require('mysql')
 
-let pool = mysqlDriver.createPool(
+let pool = mySqlInter.createPool(
   {
     host: '114.116.39.130',
     user: 'root',
