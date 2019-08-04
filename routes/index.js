@@ -3,17 +3,8 @@ var router = express.Router()
 let MyQuery = require('./MySqlInter')
 
 /* GET home page. */
-router.get('/viewTest', function (req, res, next) {
-  console.log(123)
-  res.render('view')
-})
-router.get('/musicview', function (req, res, next) {
-  console.log(123)
-  res.render('music')
-})
-router.get('/viewTest', function (req, res, next) {
-  console.log(123)
-  res.render('view')
+router.get('/', function (req, res, next) {
+  res.render('index', { title: 'Express' })
 })
 
 router.get('/getTest', function (req, res) {

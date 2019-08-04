@@ -60,19 +60,19 @@ router.post('/user', (req, res) => {
   console.log(uNickname)
 
   //数据库认证
-  MyQuery(sql, data => {
-    console.log(`data is ${data[0]}`)
+    MyQuery(sql, data => {
+      console.log(`data is ${data[0]}`)
 
-    if (data.length > 0) {
-      //认证成功
-      res.json({ state: true, message: '用户注册成功' })
-      // res.location('https://www.baidu.com/')
-    } else {
-      //认证失败
-      res.json({ state: false, message: '用户注册失败' })
-    }
+      if (data.length > 0) {
+        //认证成功
+        res.json({ state: true, message: '用户注册成功' })
+        // res.location('https://www.baidu.com/')
+      } else {
+        //认证失败
+        res.json({ state: false, message: '用户注册失败' })
+      }
 
-  })
+    })
 
 })
 /**
@@ -85,28 +85,22 @@ router.get('/user/:uId', (req, res) => {
   console.log(sql)
 
   //数据库认证
-  MyQuery(sql, data => {
-    console.log(`data is ${data[0]}`)
+    MyQuery(sql, data => {
+      console.log(`data is ${data[0]}`)
 
-    //细节问题返回数据给前台之前应该把敏感字段置空
-    data[0].u_psw = null
+      //细节问题返回数据给前台之前应该把敏感字段置空
+      data[0].u_psw = null
 
-    if (data.length > 0) {
-      //认证成功
-      res.json(data[0])
-      // res.location('https://www.baidu.com/')
-    } else {
-      //认证失败
-      res.json({ state: false, message: '没有查询到该用户' })
-    }
+      if (data.length > 0) {
+        //认证成功
+        res.json(data[0])
+        // res.location('https://www.baidu.com/')
+      } else {
+        //认证失败
+        res.json({ state: false, message: '没有查询到该用户' })
+      }
 
-  })
+    })
 })
 
 module.exports = router
-let test = [
-  { mId: '123', mUrl: 'http://123', mTotalLong: 'lo213123ng' },
-  { mId: '123', mUrl: 'http://123', mTotalLong: 'lo213123ng' },
-  { mId: '123', mUrl: 'http://123', mTotalLong: 'lo213123ng' },
-  { mId: '123', mUrl: 'http://123', mTotalLong: 'lo213123ng' }
-]
